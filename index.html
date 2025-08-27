@@ -14,12 +14,70 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <!-- custom css  -->
-    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
   </head>
-  <body>
-    <h1 class="">Emergency Services</h1>
-    <button class="">Button</button>
-    <button class="">Submit</button>
-    <script src="js/script.js"></script>
+  <body class="bg-[#f5fff6] h-[100vh]">
+    <!-- navbar start  -->
+    <nav
+      class="navbar bg-white p-4 justify-between items-center container mx-auto"
+    >
+      <!-- left-side logo and website-name  -->
+      <section class="left-side flex flex-col sm:flex-row items-center">
+        <div class="logo w-[50px] h-[50px]">
+          <img src="./assets/logo.png" alt="Logo" />
+        </div>
+        <div
+          class="website-name font-bold text-2xl ml-2 text-center sm:text-left"
+        >
+          Emergency <br />
+          Service
+        </div>
+      </section>
+      <!-- right-side heart, coin and copy  -->
+      <section class="right-side flex flex-col sm:flex-row gap-2 items-center">
+        <div
+          class="heart bg-[#41ff6b1a] flex items-center font-bold rounded-full btn"
+        >
+          <span class="mr-1">0</span>
+          <img class="w-[30px] h-[30px]" src="./assets/heart.png" alt="" />
+        </div>
+        <div
+          class="coin bg-[#41ff6b1a] flex items-center font-bold rounded-full btn"
+        >
+          <span class="mr-1">100</span>
+          <img class="w-[30px] h-[30px]" src="./assets/coin.png" alt="" />
+        </div>
+        <div
+          class="copy bg-[#00a63e] flex items-center font-semibold rounded-full btn"
+        >
+          <span>2</span>
+          <span>copy</span>
+        </div>
+      </section>
+    </nav>
+    <!-- navbar end  -->
+
+    <!-- Hero section start  -->
+    <div class="hero bg-gradient-to-l from-[#055a3f] to-[#013223] text-white">
+      <div class="hero-content text-center">
+        <div class="">
+          <img
+            src="./assets/logo-dark.png"
+            alt="Bangladesh Government Logo"
+            class="mx-auto mb-4 w-20"
+          />
+          <h1 class="mb-5 text-3xl font-bold">জরুরি সেবা ডিরেক্টরি</h1>
+          <p class="mb-5">
+            Government Emergency Services at Your Fingertip – A Project by
+            Government of the People’s Republic of Bangladesh
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Hero section end  -->
+
+    <!-- Main Section Start -->
+    <!-- Main Section End  -->
+    <script src="./js/script.js"></script>
   </body>
 </html>
